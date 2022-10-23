@@ -9,6 +9,11 @@ module.exports = {
       xl: '1440px'
     },
     extend: {
+      backgroundImage: {
+        'backGround': "url('/images/bg-tablet-pattern.svg')",
+        'simplifyMobile': "url('/images/bg-simplify-section-mobile.svg')",
+        'simplifyDesktop': "url('/images/bg-simplify-section-desktop.svg')",
+      },
       colors: {
         brightRed: 'hsl(12, 88%, 59%)',
         darkBlue: 'hsl(228, 39%, 23%)',
